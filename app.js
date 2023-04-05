@@ -9,8 +9,7 @@ async function getCats () {
     const response = await fetch (API)
     const data = await response.json()
 
-    displayCats(data) // pass the data to the displayCats function
-    goCatProfile(data)
+    // displayCats(data) // pass the data to the displayCats function
 
     return data
 }
@@ -30,8 +29,6 @@ function displayCats(cats) {
         `
     }
 }
-
-
 
 window.addEventListener('load', async ()=> {
     const cats = await getCats()
