@@ -55,6 +55,7 @@ html {
 
 /* p */
 .cat-desc {
+    text-align: justify;
     overflow: hidden;
     text-overflow: ellipsis;
     
