@@ -1,0 +1,71 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.meow-header {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    font-weight: 200;
+    padding: 0.5rem;
+
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  /* border: 1px solid orange; */
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.card-container {
+  width: 350px;
+  height: 600px;
+  margin: 10px;
+  border: lightgray solid;
+  border-width: 0.1rem;
+  border-radius: 10px;
+}
+
+.img-container {
+    height: 300px;
+    
+}
+
+.cat-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+
+/* div */
+.meow-div {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+/* .cat-name {
+    /* margin-left: 0.5rem;
+    margin-right: 0.5rem; /
+} */
+
+/* p */
+.cat-desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+.cat-profile-btn {
+    background-color: darkslategray;
+    color: white;
+    font-weight: 200;
+    padding: 0.75rem;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
