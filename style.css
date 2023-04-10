@@ -5,11 +5,34 @@ html {
 }
 
 .meow-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: rgb(26, 26, 26);
-    color: white;
-    font-weight: 200;
-    padding: 0.5rem;
+}
 
+.meow-header h2 {
+    color: white;
+    font-weight: 100;
+    margin-left: 0.25rem;
+}
+
+.meow-header label {
+    color: white;
+    align-self: center;
+    margin-left: 2rem;
+}
+
+.meow-header #meow-search {
+    height: 2rem;
+    margin-left: 5rem;
+    margin-right: 2.5rem;
+    align-self: center;
+    justify-self: end;
+}
+
+#meow-search::placeholder {
+    text-align: center;
 }
 
 .gallery {
